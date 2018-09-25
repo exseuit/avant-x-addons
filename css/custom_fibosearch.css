@@ -1,0 +1,75 @@
+/* custom_fibosearch.css */
+
+/* FiboSearch Start */
+
+.show-site-search div.search-block {
+  bottom: -44px !important;
+}
+
+.dgwt-wcas-search-wrapp,
+.show-site-search div.search-block {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff !important;
+  margin: auto;
+  padding: 0;
+}
+
+.dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp {
+  background: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* delete from inline 349
+.show-site-search .search-block { bottom: -54px !important;/}
+*/
+
+.dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type='search'].dgwt-wcas-search-input {
+  background: #fff !important;
+  border: none;
+  padding: 10px 15px 10px 40px;
+  line-height: 1.2;
+}
+.dgwt-wcas-style-pirx
+  .dgwt-wcas-sf-wrapp
+  input[type='search'].dgwt-wcas-search-input:hover {
+  background: none;
+  border: none;
+}
+
+.dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp button.dgwt-wcas-search-submit {
+  left: 5px;
+  top: 5px;
+}
+
+.dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp button.dgwt-wcas-search-submit:hover {
+  background: none;
+  border: none;
+}
+
+.dgwt-wcas-open
+  .dgwt-wcas-style-pirx
+  .dgwt-wcas-sf-wrapp
+  input[type='search'].dgwt-wcas-search-input {
+  border: none;
+}
+/* Search Suggestions Area */
+
+.dgwt-wcas-suggestions-wrapp.woocommerce.dgwt-wcas-has-img.dgwt-wcas-has-sku.dgwt-wcas-has-headings.js-dgwt-wcas-initialized {
+  top: 75px;
+  /* 
+  left: 990px;
+  right: 21px;
+  max-width: 285px;
+   */
+  padding: 10px 15px;
+}
+
+#wpadminbar
+  ~ .dgwt-wcas-suggestions-wrapp.woocommerce.dgwt-wcas-has-img.dgwt-wcas-has-sku.dgwt-wcas-has-headings.js-dgwt-wcas-initialized {
+  top: 108px;
+}
+/* FiboSearch End */
+
+/* document.getElementsByClassName('search-block')[0].getBoundingClientRect(); */
